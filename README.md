@@ -1,6 +1,9 @@
 #  30DaysOfGCP-2021-Leaderboard
 ## Description
 
+> Visit the leader Board at [leader board](https://dsc-chitkarauniv.github.io/30DaysOfGCP-2021-Leaderboard/frontend/)
+
+
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
