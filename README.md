@@ -29,7 +29,7 @@ LeaderBoard uses a number of open source projects to work properly:
 - [SASS] - well your know this
 - [jQuery] - duh
 
-And of course leaderboard itself is open source with a [public repository](https://github.com/DSC-ChitkaraUniv/30DaysOfGCP-2021-Leaderboard) on GitHub.This being the fork for working offline on the same.
+And of course leaderboard itself is open source with a [public repository](https://github.com/DSC-ChitkaraUniv/30DaysOfGCP-2021-Leaderboard) on GitHub.
 
 ## Installation
 
@@ -43,12 +43,6 @@ npm i
 node app
 ```
 
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
 
 ## Plugins
 
@@ -62,8 +56,8 @@ Instructions on how to use them in your own application are linked below.
 
 ## Development
 
-Want to contribute? Great!
+Want to contribute? Great! Comment out your code while you're at it.
 
-MIT
+
 
 **Let the reace for top begin**
