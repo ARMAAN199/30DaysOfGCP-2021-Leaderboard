@@ -43,7 +43,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 cd 30DaysOfGCP-2021-Leaderboard
 npm i
-node app
+node index.js
 ```
 
 
