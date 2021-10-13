@@ -27,7 +27,7 @@ var api_data = fetchDataAndSort().then((data)=>{
     position_third_badges[0].innerHTML = getPercent(third) + "%";
   }
   rest.map((person, index) => {
-    var plaque = `<div class="plaque rounded-5">
+    var plaque = `<div class="plaque">
   <div class="plaque-items rank">#${index + 4}</div>
   <div class="plaque-items name">${person.Name}</div>
   <div class="plague-items progress">

@@ -1,6 +1,6 @@
 let fetchDataAndSort = async () => {
   // let response = await fetch('http://api.armaanjain.tech/30days/leaderboard');
-  let response = await fetch("http://34.121.125.253/");
+  let response = await fetch("http://api.armaanjain.tech/30days/leaderboard");
   let responseData = await response.json();
   // console.log(responseData);
 
