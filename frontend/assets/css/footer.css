@@ -1,83 +1,152 @@
 footer {
-    position: relative;
-    bottom: 0;
-    min-width: 98vw;
-    background-color:#cdf1fd;
-    margin-top: 85px;
-    padding: 14px 40px;
-    display: flex;
-    /* justify-content:start; */
-    gap: 20px;
-    /* align-items:flex-end; */
-    font-family: Poppins;
-  
+  position: relative;
+  bottom: 0;
+  min-width: 98vw;
+  background-color: #0d0d0d;
+  margin-top: 85px;
+  padding: 4px;
+  display: flex;
+  /* justify-content:start; */
+  gap: 20px;
+  /* align-items:flex-end; */
+  font-family: Poppins;
+}
+.disclaimer_section {
+  float: left;
+  padding-left: 5px;
+  width: 50vw;
+}
+.developers_section {
+  width: 48vw;
+  display: flex;
+  padding-left: 10%;
+  float: right;
+}
+.footer_title {
+  /* font-size: 20px; */
+  color: #ea4335;
+  color: white;
+  font-size: 14px;
+  /* font-weight: 500; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer-item {
+  display: flex;
+  float: right;
+  /* gap: 940px; */
+  justify-content: space-around;
+  align-items: flex-end;
+  color: whitesmoke;
+}
+.footer-item a {
+  /* padding-left: 80%; */
+  color: #6cb6d3;
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer-item .developers {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  line-height: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+@media screen and (max-width: 950px) {
+  .developers_section {
+    width: 48vw;
+    padding-left: 0%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .disclaimer_section {
+    width: 30vw;
   }
   .developers_section {
-      display: flex;
-      float: right;
+    width: 68vw;
+    padding-left: 0%;
   }
-  .footer_title {
-      font-size:20px ;
-      color: #6cb6d3;
-      font-weight: 500;
+}
+
+/* mein chahun tujhko. meri jaan bepanah
+ fida hu tujhpe, meri jaan bepanah. */
+
+@media screen and (max-width: 580px) {
+  footer {
+    font-size: 10px;
   }
-  .footer-item{
-      display: flex;
-      gap: 940px;
-      justify-content: space-around;
-      align-items:flex-end;
-      color: #6cb6d3;
+  .disclaimer_section {
+    font-size: 14px;
+    width: 18vw;
   }
-  .footer-item a{
-      color: #6cb6d3;
-      text-decoration: none;
+  .footer-item h1 {
+    font-size: 10px;
   }
-  .footer-item .developers{
-      font-size: 12px;
-      font-weight: 600;
-      line-height: 25px;
-      cursor: pointer;
-      margin-left: 10px;
+  .developers_section {
+    width: 80vw;
+    padding-left: 10%;
   }
-  @media screen and (max-width: 580px) {
-      footer{
-          font-size: 10px;
-      }
-      .footer-item{
-          gap: 20px;
-          padding: 0;
-      }
-      .footer-item h1{
-          font-size: 10px;
-      }
+}
+
+@media screen and (max-width: 510px) {
+  footer {
+    font-size: 10px;
   }
-  @media screen and (max-width: 400px) {
-      footer{
-          font-size: 7px;
-          box-sizing: content-box;
-          padding: 0px;
-      }
-      .footer-item{
-          gap: 10px;
-          padding: 10px;
-      }
-      .footer-item h1{
-          font-size: 10px;
-      }
+  .disclaimer_section {
+    font-size: 14px;
+    width: 80vw;
   }
-  @media screen and (max-width: 300px) {
-      footer{
-          box-sizing: content-box;
-          padding: 0px;
-      }
-      .footer-item{
-          gap: 1px;
-          padding: 5px;
-      }
-      .footer-item h1{
-          font-size: 10px;
-      }
-      .footer-item .developers{
-          font-size: 7px!important;
-      }
+  /* .developers_section {
+    width: 80vw;
+    padding-left: 10%;
+    font-size: 8px;
   }
+  .developers {
+    font-size: 5px;
+  }
+  .footer-item h1 {
+    font-size: 10px;
+  }
+  .footer-item p {
+    font-size: 10px;
+  } */
+  .developers_section {
+    width: 80vw;
+    padding-left: 10%;
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 400px) {
+  footer {
+    font-size: 7px;
+    box-sizing: content-box;
+    padding: 0px;
+  }
+  .footer-item {
+    gap: 10px;
+    padding: 10px;
+  }
+  .footer-item h1 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 300px) {
+  footer {
+    box-sizing: content-box;
+    padding: 0px;
+  }
+  .footer-item {
+    gap: 1px;
+    padding: 5px;
+  }
+  .footer-item h1 {
+    font-size: 10px;
+  }
+  .footer-item .developers {
+    font-size: 7px !important;
+  } */
+}

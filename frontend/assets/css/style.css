@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 body {
-  background-color: #e6f8fe;
+  background-color: #0d0d0df3;
   display: flex;
   flex-direction: column;
 }
@@ -25,8 +25,8 @@ body {
 .title {
   font-size: 30px;
   font-weight: 700;
-  color: #6cb6d3;
-  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 .nav {
   box-sizing: border-box;
@@ -36,8 +36,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 35px;
-  box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.1);
-  background-color: #fff;
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.1);
+  /* background-color: #fff; */
+  background-color: #0d0d0d;
   color: #6cb6d3;
   height: 8px;
   width: 100vw;
@@ -45,7 +46,6 @@ body {
 .nav .logo img {
   height: 45px;
 }
-
 
 /* body content */
 main {
@@ -79,7 +79,7 @@ main {
   align-items: center;
   position: relative;
   border-radius: 10px;
-  box-shadow: 0 0 10px #Fff;
+  /* box-shadow: 0 0 10px #fff; */
 }
 .card .avatar {
   min-height: 100px;
@@ -87,19 +87,19 @@ main {
   /* background: #fff; */
   border-radius: 50%;
   position: absolute;
-  top: 70px;
-  left: -49px;
+  top: 47px;
+  /* left: -49px; */
   box-shadow: 0 0 10px white;
 
   /* box-shadow:2px 2px 12px 2px rgba(0,0,0,0.1); */
 }
-.card #pos-3{
+.card #pos-3 {
   background: no-repeat center/100% url("../images/avatar/hacker\ \(1\).png");
 }
-.card #pos-1{
+.card #pos-1 {
   background: no-repeat center/100% url("../images/avatar/hacker.png");
 }
-.card #pos-2{
+.card #pos-2 {
   background: no-repeat center/100% url("../images/avatar/worker.png");
 }
 .tropy img {
@@ -112,10 +112,13 @@ main {
   font-size: 20px;
   position: absolute;
   top: 170px;
+  color: aliceblue;
 }
 .card .badges {
   position: absolute;
   top: 200px;
+  color: whitesmoke;
+  font-weight: 400;
 }
 /* leaderboard  */
 .leaderboard {
@@ -126,7 +129,7 @@ main {
   gap: 8px;
   padding: 20px;
   /* background-color: rgb(136, 33, 33); */
-  transition: .5s linear;
+  /* transition: 0.5s linear; */
 }
 
 .plaque {
@@ -144,32 +147,33 @@ main {
   padding: 10px 15px;
   font-weight: bolder;
 }
-.leaderboard :hover{
-  box-shadow : 2px 2px 12px 2px rgba(0,0,0,0.1);
-}
+/* .leaderboard :hover {
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.1);
+} */
 .plaque:nth-child(4n + 1) {
-  background: #db45377c;
+  background: #ea4335;
 }
 
 .plaque:nth-child(4n + 2) {
-  background: #4286f47e;
+  background: #4285f4;
 }
 .plaque:nth-child(4n + 3) {
-  background: #0f9d5875;
+  background: #34a853;
 }
 .plaque:nth-child(4n + 4) {
-  background: #f4b3008c;
+  background: #fbbc04;
 }
 .plaque-items {
   justify-content: center;
+  color: antiquewhite;
 }
 
 /* media queries */
 @media screen and (max-width: 1100px) {
-  main h1{
+  main h1 {
     font-size: 3px;
   }
-  main{
+  main {
     font-size: 10px;
   }
   .plaque {
@@ -202,7 +206,7 @@ main {
 @media screen and (max-width: 992px) {
   .nav .logo img {
     height: 30px;
-}
+  }
   .plaque {
     min-width: 500px;
     max-width: 500px;
@@ -231,8 +235,8 @@ main {
   }
 }
 @media screen and (max-width: 580px) {
-  .title{
-    font-size: 20px;
+  .title {
+    font-size: 15px !important;
   }
   .top-three {
     gap: 23px;
@@ -265,16 +269,20 @@ main {
   .card .badges {
     top: 85px;
   }
-  .bottom-right-curve-30{
+  .bottom-right-curve-30 {
     border-bottom-right-radius: 15px !important;
   }
-   .top-left-curve-30{
-     border-top-left-radius: 15px !important;
-   }
+  .top-left-curve-30 {
+    border-top-left-radius: 15px !important;
+  }
+  .gdsc {
+    display: none;
+  }
 }
 @media screen and (max-width: 380px) {
   .title {
-    font-size: 16px;
+    font-size: 12px !important;
+    width: 100%;
   }
   .top-three {
     gap: 10px;
@@ -283,7 +291,7 @@ main {
     min-width: 200px;
     padding: 10px;
   }
-  .plaque-items{
+  .plaque-items {
     font-size: 10px;
   }
   .card {
@@ -300,12 +308,18 @@ main {
     font-size: 7px;
   }
   .card .badges {
-    font-size: 10px;
+    font-size: 5px !important;
     top: 60px;
   }
   .tropy img {
     height: 33px;
     top: -9px;
+  }
+  .cloud {
+    display: none;
+  }
+  main {
+    padding: 10px 0px;
   }
 }
 @media screen and (max-width: 280px) {
@@ -319,7 +333,7 @@ main {
     min-width: 170px;
     padding: 10px;
   }
-  .plaque-items{
+  .plaque-items {
     font-size: 10px;
   }
   .card {
@@ -343,10 +357,10 @@ main {
     height: 33px;
     top: -9px;
   }
-  .bottom-right-curve-30{
+  .bottom-right-curve-30 {
     border-bottom-right-radius: 10px !important;
   }
-   .top-left-curve-30{
-     border-top-left-radius: 10px !important;
-   }
+  .top-left-curve-30 {
+    border-top-left-radius: 10px !important;
+  }
 }
