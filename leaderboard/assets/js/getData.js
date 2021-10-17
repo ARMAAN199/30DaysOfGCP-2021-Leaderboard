@@ -13,6 +13,7 @@ let fetchDataAndSort = async () => {
     if (obj.Quests.length === 1 && !obj.Quests[0]) {
       obj.Quests = [];
     }
+    console.log(obj.Quests, obj.Quests.length);
   });
   data.sort((a, b) => {
     if (a.Quests.length !== b.Quests.length) {

@@ -28,6 +28,7 @@ var api_data = fetchDataAndSort()
       position_third_badges[0].innerHTML = getPercent(third) + "%";
     }
     rest.map((person, index) => {
+      // console.log(person.Quests.length);
       var plaque = `<div class="plaque rounded-5">
   <div class="plaque-items rank">#${index + 4}</div>
   <div class="plaque-items name">${person.Name}</div>
@@ -45,7 +46,7 @@ var api_data = fetchDataAndSort()
       var x = document.getElementById("id_" + i);
       var per = getPercent(rest[i]);
       x.style.width = per + "%";
-      console.log(x);
+      // console.log(x);
     }
   });
 
