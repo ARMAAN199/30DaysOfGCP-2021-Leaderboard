@@ -33,7 +33,7 @@ var api_data = fetchDataAndSort()
   <div class="plaque-items rank">#${index + 4}</div>
   <div class="plaque-items name">${person.Name}</div>
   <div class="plague-items progress">
-    <div class="progress-done" id="id_${index}">${person.Quests.length}</div>
+    <div class="progress-done" id="id_${index}">${person.Quests.length!=0?person.Quests.length:" "}</div>
   </div>
   </div>
   `;
