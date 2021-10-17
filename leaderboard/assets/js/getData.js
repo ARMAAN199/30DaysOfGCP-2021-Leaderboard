@@ -1,6 +1,8 @@
 let fetchDataAndSort = async () => {
   // let response = await fetch('http://api.armaanjain.tech/30days/leaderboard');
-  let response = await fetch("http://api.armaanjain.tech/30days/leaderboard");
+  let response = await fetch(
+    "http://api.armaanjain.tech:8080/30days/leaderboard"
+  );
   let responseData = await response.json();
   // console.log(responseData);
 
