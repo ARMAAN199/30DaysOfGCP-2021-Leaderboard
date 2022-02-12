@@ -9,11 +9,14 @@ let fetchDataAndSort = async () => {
   let data = Object.values(responseData.obj);
   data = data.filter((user) => user.Name !== undefined);
   data.forEach((obj) => {
-    obj.Quests = obj.Quests.substring(1, obj.Quests.length - 1).split(",");
+    // console.log(obj.Quests);
+    // added template string to improve readability
+    obj.Quests = obj.Quests.substring(1, obj.Quests.length - 1).split(`","`);
     if (obj.Quests.length === 1 && !obj.Quests[0]) {
       obj.Quests = [];
     }
   });
+  
   data.sort((a, b) => {
     if (a.Quests.length !== b.Quests.length) {
       return b.Quests.length - a.Quests.length;
