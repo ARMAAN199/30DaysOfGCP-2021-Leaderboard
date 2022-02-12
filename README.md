@@ -1,8 +1,8 @@
-#  30DaysOfGCP-2021-Leaderboard
+# 30DaysOfGCP-2021-Leaderboard
+
 ## Description
 
 > Visit the leader Board at [leader board](https://dsc-chitkarauniv.github.io/30DaysOfGCP-2021-Leaderboard/frontend/)
-
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
@@ -10,16 +10,10 @@
 
 The leader board for the 30 days of GCP 2021 for Chitkar University Students.
 Authors:
+
 - [Devansh-Walia](https://github.com/Devansh-Walia)
 - [Armaan Jain](https://github.com/ARMAAN199)
 - [Anshuman Singla](https://github.com/anshuman710)
-
-## contributions
-
-- NodeJS Api for backend architecture, Armaan
-- Comfortable UI, Anshuman and Devansh
-- fetch-sort functions, chirag
-- JS build, Devansh
 
 ## Tech
 
@@ -46,21 +40,18 @@ npm i
 node index.js
 ```
 
-
 ## Plugins
 
 The repo is currently extended with the following plugins.
 Instructions on how to use them in your own application are linked below.
 
-| Plugin | README |
-| ------ | ------ |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| Plugin       | README                                |
+| ------------ | ------------------------------------- |
+| GitHub       | [plugins/github/README.md][plgh]      |
+| Google Drive | [plugins/googledrive/README.md][plgd] |
 
 ## Development
 
 Want to contribute? Great! Comment out your code while you're at it.
-
-
 
 **Let the reace for top begin**
